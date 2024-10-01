@@ -58,6 +58,7 @@ class Program
         var newCustomer = new CustomerData { Age = 28, Salary = 55000 };
         var prediction = predictionEngine.Predict(newCustomer);
 
+        Console.WriteLine($"Customer - Age = {newCustomer.Age} - Salary = {newCustomer.Salary}");
         Console.WriteLine($"Prediction: {(prediction.Purchase ? "Will Purchase" : "Will Not Purchase")}");
     }
 }
