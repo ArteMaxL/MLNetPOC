@@ -4,13 +4,14 @@ Se utiliza la biblioteca ML.NET para entrenar un modelo de machine learning que 
 
 ### Paso 1: Configuración del Proyecto
 
-Crea un nuevo proyecto de consola en .NET:
+Crear un nuevo proyecto de consola en .NET:
 
 ```bash
 dotnet new console -n MLNetPOC
 cd MLNetPOC
 ```
-### Paso 2: Instala el paquete ML.NET:
+
+### Paso 2: Instalar el paquete ML.NET:
 
 ```bash
 dotnet add package Microsoft.ML
